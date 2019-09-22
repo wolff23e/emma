@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "heroku-postbuild": "npm --prefix frontend run installAndCompile && npm --prefix mockserver run installAndCompile"
+    "start": "node index.js",  "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/wolff23e/himynameisemma#readme",
   "keywords": [
     "emma"
-  ]
+  ],
+  "devDependencies": {
+    "webpack-dev-server": "^3.8.1"
+  }
 }

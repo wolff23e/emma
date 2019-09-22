@@ -1,11 +1,12 @@
 {
-  "name": "personal-code",
+  "name": "emma",
   "version": "1.0.0",
   "description": "emma wolff",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "npm --prefix frontend run installAndCompile && npm --prefix mockserver run installAndCompile"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/wolff23e/himynameisemma/issues"
   },
-  "homepage": "https://github.com/wolff23e/himynameisemma#readme"
+  "homepage": "https://github.com/wolff23e/himynameisemma#readme",
+  "keywords": [
+    "emma"
+  ]
 }

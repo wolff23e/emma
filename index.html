@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>emma wolff</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="/index.css" />
+
+
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    .mySlides {
+      display: none;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">home</a>
+        <a
+          href="#band"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >about me</a
+        >
+        <a
+          href="#tour"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >projects</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >contact</a
+        >
+
+        <a
+          href="javascript:void(0)"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+          ><i class="fa fa-search"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div
+      id="navDemo"
+      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+      style="margin-top:46px"
+    >
+      <a
+        href="#band"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >home</a
+      >
+      <a
+        href="#tour"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >about me</a
+      >
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >projects</a
+      >
+      <a
+        href="#"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >contact</a
+      >
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+  
+
+      <!-- The Band Section -->
+
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width:800px"
+        id="band"
+      >
+        <h2 class="w3-wide">hi, my name is <b>emma wolff </b></h2>
+        <img
+          src="/pics/emma.jpeg"
+          alt="emma wolff"
+          style="width:200px"
+          style="height:300px"
+          class="w3-round w3-margin-bottom w3-hover-opacity"
+        />
+        <p class="w3-opacity">
+          <i> junior @ mount holyoke college, aspiring software engineer</i>
+        </p>
+        <p class="w3-justify">
+          <b> Peace and blessings, </b> welcome to the world of <b> wolff!</b>
+          <br />
+          <br />
+          I am an avid reader, passionate learner, and pushed every day by
+          curiousity. I love exploring all aspects of technology, from coding in
+          multiple languages, 3D printing my creations, learning about new
+          softwares and applications...truthfully, ever since I built my first
+          MineCraft server in 6th grade I've been <b> hooked. </b> <br />
+          <br />
+          In the Summer of 2019 I completed my first coding bootcamp which
+          invigorated newfound passions such as web development and data
+          visiualization. Thus far I have gained valuable experience working
+          with Python, CSS, HTML, Swift, JavaScript, Sculptris, Adobe
+          Illustrator, all Microsoft Platforms, Final Cut Pro, API's, Node, and
+          Express. I likewise gained valuable experience coding in a
+          collaborative envorinoment, communicating with my team on Slack, and
+          managing our projects on GitHub. <br />
+          <br />
+         <i> <b> "The king hath note of all that they intend,
+          By interception which they dream not of."    </b>    </i> <br />
+     
+        </p>
+        
+
+        <div class="w3-third">
+      
+          <img
+            src="/pics/code1.jpg"
+            class="w3-round w3-margin-bottom w3-hover-opacity"
+            alt="Emma presenting"
+            style="width:240px"
+            style="height:300px"
+          />
+        </div>
+        <div class="w3-third">
+          <img
+            src="/pics/code2smaller.png"
+            class="w3-round w3-margin-bottom w3-hover-opacity"
+            alt="Emma teaching"
+            style="width:240px"
+            style="height:300px"
+          />
+        </div>
+        <div class="w3-third">
+          <img
+            src="/pics/code3small.png"
+            class="w3-round w3-margin-bottom w3-hover-opacity"
+            alt="Emma writing code"
+            style="width:240px"
+            style="height:300px"
+            
+          />
+        </div>
+      </div>
+
+
+      <!-- The Tour Section -->
+      <div class="w3-black" id="tour">
+        <div
+          class="w3-container w3-content w3-padding-64"
+          style="max-width:800px"
+        >
+          <h2 class="w3-wide w3-center">personal projects</h2>
+          <p class="w3-opacity w3-center">
+            <i>some of my work...</i>
+          </p>
+          <br />
+
+          <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="/pics/wethepeoples.png"
+                alt="New York"
+                style="width:100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b>We The Peoples </b></p>
+                <p class="w3-opacity">August 2019</p>
+                <p>
+                  An interactive site collaboratively made in hopes that the Peoples will explore our living breathing
+                  document, the Constitution.
+                </p>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  <a href="https://wethepeoplesusa.com"> Visit </a>
+                </button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="/pics/wbb2.png"
+                alt="Paris"
+                style="width:100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b> World Behind Bars</b></p>
+                <p class="w3-opacity">September 2019</p>
+                <p>
+                  Data visiualization of the global carceral state, an issue
+                  near to my heart.
+                </p>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  <a href="https://worldbehindbars.surge.sh"> Visit </a>
+                </button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="/w3images/sanfran.jpg"
+                alt="something"
+                style="width:100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b> Another project</b></p>
+                <p class="w3-opacity"> Something Something</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  Visit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Contact Section -->
+      <div
+        class="w3-container w3-content w3-padding-64"
+        style="max-width:800px"
+        id="contact"
+      >
+        <h2 class="w3-wide w3-center">CONTACT</h2>
+        <p class="w3-opacity w3-center">
+          <i>Question? Comment? Hate mail? Drop a note!</i>
+        </p>
+        <div class="w3-row w3-padding-32">
+          <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker" style="width:30px"></i> Mount Holyoke
+            College <br />
+            <i class="fa fa-linkedin" style="width:30px"></i>
+            <a href="https://www.linkedin.com/in/emma-wolff-03b169151/">
+              My LinkedIn Page </a
+            ><br />
+            <i class="fa fa-envelope" style="width:30px"> </i> Email:
+            wolff23e@mtholyoke.edu
+            <br />
+          </div>
+          <div class="w3-col m6">
+            <form name="contact" action="/send.php" method="POST">
+              <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                <div class="w3-half">
+                  <input
+                    class="w3-input w3-border"
+                    type="text"
+                    placeholder="userName"
+                    required
+                    name="userName"
+                  />
+                </div>
+                <div class="w3-half">
+                  <input
+                    class="w3-input w3-border"
+                    type="text"
+                    placeholder="userEmail"
+                    required
+                    name="userEmail"
+                  />
+                </div>
+              </div>
+              <input
+                class="w3-input w3-border"
+                type="text"
+                placeholder="userMessage"
+                required
+                name="userMessage"
+              />
+              <button
+                class="w3-button w3-black w3-section w3-right"
+                input type="submit" value="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Page Content -->
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"
+    >
+    <img 
+    src="/pics/lonewolff2.png"
+    alt="emma wolff"
+    style="width:200px" 
+    style="height:300px"
+    class="w3-round w3-margin-bottom w3-hover-opacity"
+    />
+  </footer>
+
+    <script>
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      var modal = document.getElementById("ticketModal");
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>

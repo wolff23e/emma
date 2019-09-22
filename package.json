@@ -1,0 +1,19 @@
+{
+  "name": "personal-code",
+  "version": "1.0.0",
+  "description": "emma wolff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolff23e/himynameisemma.git"
+  },
+  "author": "emma wolff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolff23e/himynameisemma/issues"
+  },
+  "homepage": "https://github.com/wolff23e/himynameisemma#readme"
+}

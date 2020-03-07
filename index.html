@@ -2,6 +2,11 @@
 <html lang="en">
   <title>emma wolff</title>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
+  <script src="jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
@@ -9,6 +14,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
+  
   <link rel="stylesheet" href="/index.css" />
 <!-- Primary Meta Tags -->
 <title>Meta Tags — Preview, Edit and Generate</title>
@@ -57,6 +63,11 @@
           >projects</a
         >
         <a
+          href="#awards"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >awards & articles</a
+        >
+        <a
           href="#contact"
           class="w3-bar-item w3-button w3-padding-large w3-hide-small"
           >contact</a
@@ -91,6 +102,12 @@
         class="w3-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
         >projects</a
+      >
+      <a
+        href="awards"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >awards & articles</a
       >
       <a
         href="#contact"
@@ -201,38 +218,15 @@
                 class="w3-hover-opacity"
               />
               <div class="w3-container w3-white">
-                <p><b>We The Peoples </b></p>
+                <p><b>We The People </b></p>
                 <p class="w3-opacity">August 2019</p>
                 <p>
-                  An interactive site collaboratively during my coding bootcamp
-                  - made in hopes that the Peoples will explore our living
-                  breathing document; the Constitution.
+                  After pitching an idea to collaboratively build this site during my coding bootcamp I am so pleased it came to life
+                  - made in hopes that the People will explore our living
+                  breathing document, the Constitution, in modern interactive style. <i>Enhanced personal capacity to project manage, as well as technically implementing GitHub, APIs, node.js, and more! </i>
                 </p>
                 <button class="w3-button w3-black w3-margin-bottom">
                   <a href="https://wethepeoplesusa.com"> Visit </a>
-                </button>
-              </div>
-            </div>
-            <div class="w3-third w3-margin-bottom">
-              <img
-                src="pics/ssofslogo.png"
-                alt="state sales of surveillance spyware"
-                style="width:250px;height:250px;"
-                class="w3-hover-opacity"
-              />
-              <div class="w3-container w3-white">
-                <p>
-                  <b> State Sales of Surveillance Spyware</b>
-                </p>
-                <p class="w3-opacity">November 2019</p>
-                <p>
-                  Site created to display trends in State sales of surveillance
-                  spyware interactively as well as to showcase ideas,
-                  whistleblowers, and hot topics in fields of cyberpolitics and
-                  democratic backsliding in the age of mass surveillance.
-                </p>
-                <button class="w3-button w3-black w3-margin-bottom">
-                  <a href="http://spywaresales.netlify.com"> Visit </a>
                 </button>
               </div>
             </div>
@@ -248,8 +242,8 @@
                 <p class="w3-opacity">September 2019</p>
                 <p>
                   Data visiualization of the global carceral state made during a
-                  three-day coding challenge; an issue near to my heart having
-                  been a child of an incarcerated parent. Made in one week to practice implementing anychart API.
+                  hack-a-thon: an issue near to my heart after experiencing parental incarceration. 
+                 <i>  Made technical gains practicing implementing anychart API, javaScript, and JSON application. </i>
                 </p>
                 <button class="w3-button w3-black w3-margin-bottom">
                   <a href="http://worldbehindbars.surge.sh"> Visit </a>
@@ -258,38 +252,86 @@
             </div>
             <div class="w3-third w3-margin-bottom">
               <img
-                src="pics/cssocietyLogo.png"
-                alt="computer science society website"
+                src="pics/ssofslogo.png"
+                alt="state sales of surveillance spyware"
                 style="width:250px;height:250px;"
                 class="w3-hover-opacity"
               />
               <div class="w3-container w3-white">
                 <p>
-                  <b> Under development: MHC Computer Science Society Site</b>
+                  <b> State Sales of Surveillance Spyware</b>
                 </p>
-                <p class="w3-opacity">October 2019</p>
+                <p class="w3-opacity">Fall Term 2019</p>
                 <p>
-                  The Mount Holyoke Computer Science Society Website, made
-                  collaboratively with the web development team in the computer
-                  science department.
+                  Created to display trends in State sales of surveillance
+                  spyware interactively according to governence. Further highlighting
+                  whistleblowers, hot topics in field of Cyberpolitics, and
+                  democratic backsliding in the age of mass surveillance. <i> Was an amazing oppurtunity for fusing interests in tech and political fields. </i>
                 </p>
                 <button class="w3-button w3-black w3-margin-bottom">
-                  <a href="https://mhccss.netlify.com"> Visit </a>
+                  <a href="http://spywaresales.netlify.com"> Visit </a>
                 </button>
               </div>
             </div>
             
+            
           </div>
         </div>
       </div>
+           <!-- The awards and articles Section -->
 
+           <article
+           class="w3-container w3-padding-64 w3-center w3-light-grey"
+           id="awards">
+    
+        <h2 class="w3-wide w3-center">awards & articles</h2>
+        <p class="w3-opacity w3-center">
+          <i>what have I been up too...</i>
+        </p>
+
+<div class="ui four column grid">
+  <div class="column">
+    <div class="ui segment">
+      <a href="https://www.dickinsoncountynews.com/story/2286513.html" class="ui middle aligned small image w3-hover-opacity">
+        <img src="pics/forbeswolff.png"> <p>Forbes Under 30 Scholar 2019</p>
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui segment">
+      <a href="https://www.linkedin.com/posts/emma-wolff-03b169151_diversityandinclusion-jpmc-webelonghere-activity-6594263083651342336-mtfL" class="ui middle aligned small image w3-hover-opacity">
+        <img src="pics/winningwomen.jpeg"> <p>J.P. Morgan Chase Winning Women In Technology 2019 </p>
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui segment">
+      <a href="https://www.dickinsoncountynews.com/story/2286513.html" class="ui middle aligned small image w3-hover-opacity">
+        <img src="pics/wolffrunway.jpg"> <p>Wolff takes the Catwalk From Spirit Lake to NYC</p>
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui segment">
+      <a href="https://www.iowagreatlakesrotary.org/stories/october-5th-meeting" class="ui middle aligned small image w3-hover-opacity">
+        <img src="pics/wolffrotary.png"> <p>Wolff Presents for Rotary October 5th Meeting On NYC Modeling</p>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+      </article>
+
+
+        
       <!-- The Contact Section -->
       <div
         class="w3-container w3-content w3-padding-64"
         style="max-width:800px"
         id="contact"
       >
-        <h2 class="w3-wide w3-center">CONTACT</h2>
+        <h2 class="w3-wide w3-center">contact</h2>
         <p class="w3-opacity w3-center">
           <i>Question? Comment? Hate mail? Drop a note!</i>
         </p>
@@ -309,7 +351,7 @@
             Github</a>
             <br />
             <i class="fa fa-id-card" style="width:30px"></i>
-              <a href="Wolff_Emma_NewCVResume.pdf" download="Wolff_Emma_NewCVResume.pdf">
+              <a href="Wolff_Emma_NewCVResume.jpg" download="Wolff_Emma_NewCVResume.jpg">
             Resume</a>
           </div>
 
